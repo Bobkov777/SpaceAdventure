@@ -1,0 +1,276 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		092AEAFE1F2220D800ACBF95 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092AEAFD1F2220D800ACBF95 /* main.swift */; };
+		092AEB081F22271C00ACBF95 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092AEB071F22271C00ACBF95 /* HelperFunctions.swift */; };
+		092AEB0A1F2228E000ACBF95 /* SpaceAdventure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092AEB091F2228E000ACBF95 /* SpaceAdventure.swift */; };
+		092AEB0C1F22304C00ACBF95 /* PlanetarySystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092AEB0B1F22304C00ACBF95 /* PlanetarySystem.swift */; };
+		092AEB0E1F2231FC00ACBF95 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092AEB0D1F2231FC00ACBF95 /* Planet.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		092AEAF81F2220D800ACBF95 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		092AEAFA1F2220D800ACBF95 /* SpaceAdventure */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = sourcecode.swift; path = SpaceAdventure; sourceTree = BUILT_PRODUCTS_DIR; };
+		092AEAFD1F2220D800ACBF95 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		092AEB071F22271C00ACBF95 /* HelperFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
+		092AEB091F2228E000ACBF95 /* SpaceAdventure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceAdventure.swift; sourceTree = "<group>"; };
+		092AEB0B1F22304C00ACBF95 /* PlanetarySystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetarySystem.swift; sourceTree = "<group>"; };
+		092AEB0D1F2231FC00ACBF95 /* Planet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		092AEAF71F2220D800ACBF95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		092AEAF11F2220D800ACBF95 = {
+			isa = PBXGroup;
+			children = (
+				092AEAFC1F2220D800ACBF95 /* SpaceAdventure */,
+				092AEAFB1F2220D800ACBF95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		092AEAFB1F2220D800ACBF95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				092AEAFA1F2220D800ACBF95 /* SpaceAdventure */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		092AEAFC1F2220D800ACBF95 /* SpaceAdventure */ = {
+			isa = PBXGroup;
+			children = (
+				092AEAFD1F2220D800ACBF95 /* main.swift */,
+				092AEB091F2228E000ACBF95 /* SpaceAdventure.swift */,
+				092AEB0B1F22304C00ACBF95 /* PlanetarySystem.swift */,
+				092AEB0D1F2231FC00ACBF95 /* Planet.swift */,
+				092AEB071F22271C00ACBF95 /* HelperFunctions.swift */,
+			);
+			path = SpaceAdventure;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		092AEAF91F2220D800ACBF95 /* SpaceAdventure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 092AEB011F2220D800ACBF95 /* Build configuration list for PBXNativeTarget "SpaceAdventure" */;
+			buildPhases = (
+				092AEAF61F2220D800ACBF95 /* Sources */,
+				092AEAF71F2220D800ACBF95 /* Frameworks */,
+				092AEAF81F2220D800ACBF95 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpaceAdventure;
+			productName = SpaceAdventure;
+			productReference = 092AEAFA1F2220D800ACBF95 /* SpaceAdventure */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		092AEAF21F2220D800ACBF95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Ilya;
+				TargetAttributes = {
+					092AEAF91F2220D800ACBF95 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 092AEAF51F2220D800ACBF95 /* Build configuration list for PBXProject "SpaceAdventure" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 092AEAF11F2220D800ACBF95;
+			productRefGroup = 092AEAFB1F2220D800ACBF95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				092AEAF91F2220D800ACBF95 /* SpaceAdventure */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		092AEAF61F2220D800ACBF95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092AEAFE1F2220D800ACBF95 /* main.swift in Sources */,
+				092AEB0C1F22304C00ACBF95 /* PlanetarySystem.swift in Sources */,
+				092AEB081F22271C00ACBF95 /* HelperFunctions.swift in Sources */,
+				092AEB0A1F2228E000ACBF95 /* SpaceAdventure.swift in Sources */,
+				092AEB0E1F2231FC00ACBF95 /* Planet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		092AEAFF1F2220D800ACBF95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		092AEB001F2220D800ACBF95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		092AEB021F2220D800ACBF95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		092AEB031F2220D800ACBF95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		092AEAF51F2220D800ACBF95 /* Build configuration list for PBXProject "SpaceAdventure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				092AEAFF1F2220D800ACBF95 /* Debug */,
+				092AEB001F2220D800ACBF95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		092AEB011F2220D800ACBF95 /* Build configuration list for PBXNativeTarget "SpaceAdventure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				092AEB021F2220D800ACBF95 /* Debug */,
+				092AEB031F2220D800ACBF95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 092AEAF21F2220D800ACBF95 /* Project object */;
+}
